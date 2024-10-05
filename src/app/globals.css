@@ -1,7 +1,3 @@
 @tailwind base;       /* Include base styles for resets */
 @tailwind components;  /* Include Tailwind's component classes */
 @tailwind utilities;
-
-.active a{
-  font-weight: 500;
-}

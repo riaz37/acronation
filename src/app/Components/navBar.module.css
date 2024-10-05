@@ -15,7 +15,8 @@
 .mainNavBar{
     width: 100%;
     max-width: 1170;
-    background:linear-gradient(#AF82FF1A,#1877F21A);
+    /* background:linear-gradient(#AF82FF1A,#1877F21A); */
+    background-color: rgba(175, 99, 99, 0.596);
     border-radius: 12px;
     padding: 30px 50px 30px 50px;
 }
@@ -26,12 +27,13 @@
 }
 
 .right_Nav_Item_Section{
-    width: 760px;
+    width: 761px;
     height: 54px;
 }
 
 .nav_links{
     width: 496px;
+    background-color: red;
 }
 
 .nav_link_list{
@@ -46,6 +48,7 @@
     font-weight: 400;
 }
 
-.active a{
-    font-weight: bold;
+.button_CTA{
+    width: 185px;
+    height:54px;
 }
