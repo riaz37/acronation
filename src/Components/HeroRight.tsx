@@ -22,7 +22,7 @@ const HeroRight = () => {
   });
 
   return (
-    <div className="flex items-center justify-center w-full h-[600px] ">
+    <div className="flex relative items-center justify-center w-full h-[600px] ">
       <span className="circleHead absolute text-5xl font-bold text-center ">
         acro nation <br /> service
       </span>
