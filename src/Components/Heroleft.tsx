@@ -1,11 +1,27 @@
 import React, { use } from "react";
 import { FaLongArrowAltUp } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
+import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
 const Heroleft = () => {
-  useGSAP(() => {});
+  const ref1 = useRef(null);
+  const ref2 = useRef(null);
+  const ref3 = useRef(null);
+  const ref4 = useRef(null);
+  const ref5 = useRef(null);
+
+  useGSAP(() => {
+    const tl = gsap.timeline();
+    tl.to(ref1.current, { y: 0, duration: 1, opacity: 1 });
+    tl.to(ref1.current, { duration: 0.5, opacity: 1 }, "-=0.5");
+    tl.to(ref2.current, { y: 0, duration: 1, opacity: 1 }, "-=0.5");
+    tl.to(ref3.current, { y: 0, duration: 1, opacity: 1 }, "-=0.5");
+    tl.to(ref4.current, { y: 0, duration: 1, opacity: 1 }, "-=0.5");
+    tl.to(ref5.current, { y: 0, duration: 1, opacity: 1 }, "-=0.5");
+  });
+
   return (
     <div>
       <div className="w-[812px] h-screen ">
@@ -38,13 +54,26 @@ const Heroleft = () => {
         {/* header */}
         <div className="flex relative mt-[30px]">
           <h1 className="text-[64px] font-black leading-[74px]">
-            Creative <span className="text-[#1877F2]">Web Design</span>{" "}
+            <div className="bounding">
+              <h1 ref={ref1}>
+                Creative <span className="text-[#1877F2]">Web Design</span>{" "}
+              </h1>
+            </div>
             <video
+              ref={ref5}
               autoPlay
               src="/hero.mp4"
-              className="w-[116px] h-[60px] bg-slate-400 rounded-full absolute top-[14px] right-[40px]"
+              className="w-[116px] h-[60px] bg-slate-400 rounded-full absolute top-[14px] right-[40px] opacity-0"
             ></video>{" "}
-            solution crafted with precision for your unique brand.{" "}
+            <div className="bounding">
+              <h1 ref={ref2}>solution crafted with</h1>
+            </div>{" "}
+            <div className="bounding">
+              <h1 ref={ref3}>precision for your unique</h1>
+            </div>{" "}
+            <div className="bounding">
+              <h1 ref={ref4}>brand. </h1>
+            </div>
           </h1>
         </div>
         <p className="text-[20px] mt-[30px] ">
