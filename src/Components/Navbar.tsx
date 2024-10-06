@@ -32,7 +32,7 @@ const NavBar = () =>{
                         pr-3 
                         w-[148.07px] 
                         h-[50px]">
-                            <Image src="/Group.svg" alt="logo" />
+                            <Image src="/Group.svg" alt="logo"  />
                         </div>
 
                         <div className="nav-links-and-btn 
