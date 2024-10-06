@@ -69,7 +69,7 @@ const footerLinks = [
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#F3F9FF] p-8">
+      <div className="bg-[#F3F9FF] py-10 px-8">
         <div className="max-w-screen-lg w-full mx-auto">
           <h1 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl text-center font-bold">
             Stay In Touch for the{" "}
@@ -95,9 +95,9 @@ const Footer = () => {
             {/* useful links  */}
             <div className="flex flex-col justify-between gap-8 sm:flex-row flex-wrap ">
               {footerLinks.map((linkGroup, index) => (
-                <div key={index} className="flex flex-col gap-2">
-                  <h3 className="text-lg font-bold">{linkGroup.title}</h3>
-                  <ul>
+                <div key={index} className="flex flex-col gap-4">
+                  <h3 className="text-xl font-bold">{linkGroup.title}</h3>
+                  <ul className="space-y-2">
                     {linkGroup.links.map((link, index) => (
                       <li key={index}>
                         <a
