@@ -1,5 +1,5 @@
 "use client"
-import './navbar-main.css'
+import './Navbar-main.css'
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
@@ -32,7 +32,7 @@ const NavBar = () =>{
                         pr-3 
                         w-[148.07px] 
                         h-[50px]">
-                            <Image src="/Group.svg" alt="logo"  />
+                            <Image src="/Group.svg" width="148" height="50" alt="logo"  />
                         </div>
 
                         <div className="nav-links-and-btn 
@@ -73,10 +73,10 @@ const NavBar = () =>{
                             justify-between 
                             items-center">
                                 <button className='btn-name'>
-                                    <Image src="/Frame_842.svg" alt="cta"/>
+                                    <Image src="/Frame_842.svg" width="127" height="54" alt="cta"/>
                                 </button>
                                 <button className='btn-name w-[54px] h-[54px] bg-[#282828] flex justify-center items-center'>
-                                    <Image src="/Frame_843.svg" alt="cta"/>
+                                    <Image src="/Frame_843.svg" width="54" height="54" alt="cta"/>
                                 </button>
                             </div>
                         </div>
