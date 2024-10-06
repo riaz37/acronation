@@ -15,18 +15,18 @@ const Partnership = () =>{
                             <div className="w-[1724px] h-[40px] flex justify-between items-center left-bar">
                                 <Image src="/Property1-0.svg" alt="image1" />
                                 <Image src="/Property1-1.svg" alt="image2"/>
-                                <Image src="/public/Property2-0.svg" alt="image3"/>
-                                <Image src="/public/Property3-0.svg" alt="image4"/>
-                                <Image src="/public/Property3-1.svg" alt="image5"/>
-                                <Image src="/public/Property4-0.svg" alt="image6"/>
+                                <Image src="/Property2-0.svg" alt="image3"/>
+                                <Image src="/Property3-0.svg" alt="image4"/>
+                                <Image src="/Property3-1.svg" alt="image5"/>
+                                <Image src="/Property4-0.svg" alt="image6"/>
                             </div>
                             <div className="w-[1724px] h-[40px] flex justify-between items-center right-bar">
-                                <Image src="/public/Property5-1.svg" alt="image1"/>
-                                <Image src="/public/Property1-0.svg" alt="image2"/>
-                                <Image src="/public/Property2-0.svg" alt="image3"/>
-                                <Image src="/public/Property3-1.svg" alt="image4"/>
-                                <Image src="/public/Property3-1.svg" alt="image5"/>
-                                <Image src="/public/Property4-0.svg" alt="image6"/>
+                                <Image src="/Property5-1.svg" alt="image1"/>
+                                <Image src="/Property1-0.svg" alt="image2"/>
+                                <Image src="/Property2-0.svg" alt="image3"/>
+                                <Image src="/Property3-1.svg" alt="image4"/>
+                                <Image src="/Property3-1.svg" alt="image5"/>
+                                <Image src="/Property4-0.svg" alt="image6"/>
                             </div>
                         </div>
                         <div className="paragraph w-[904px] h-14 text-center font-[400] text-[#555555]">
