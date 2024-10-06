@@ -37,7 +37,7 @@ const Project = () => {
               <h4>result and analysis</h4>
             </div>
           </div>
-          <button className="flex mt-6">
+          <button className="flex mt-6 text-white">
             <h1 className=" text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
               see all case study
             </h1>
@@ -64,7 +64,7 @@ const Project = () => {
                 Flowbies revolutionized digital education by creating a....
               </p>
             </div>
-            <button className="flex ml-10">
+            <button className="flex ml-10 text-white">
               <h1 className=" text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
                 case study
               </h1>
@@ -89,7 +89,7 @@ const Project = () => {
                 How Acro Nation’s tailored solutions elevated Crypt
               </p>
             </div>
-            <button className="flex ml-10">
+            <button className="flex ml-10 text-white">
               <h1 className=" text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
                 case study
               </h1>
@@ -114,7 +114,7 @@ const Project = () => {
                 Flowbies revolutionized digital education by creating a
               </p>
             </div>
-            <button className="flex ml-10">
+            <button className="flex ml-10 text-white">
               <h1 className=" text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
                 case study
               </h1>

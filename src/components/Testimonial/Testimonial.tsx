@@ -10,49 +10,49 @@ const Testimonial = () => {
       img: "https://avatar.vercel.sh/jack", // Replace with actual image path
     },
     {
-      name: "John Doe",
+      name: "cartona",
       position: "CTO",
       comment:
         "Their collaborative approach made the project enjoyable and successful. I couldn't ask for a better partner.",
       img: "https://avatar.vercel.sh/jill", // Replace with actual image path
     },
     {
-      name: "John Doe",
-      position: "CTO",
+      name: "onil",
+      position: "Founder",
       comment:
         "Acro Nation has been instrumental in our growth journey. Their dedication and creativity set them apart.",
       img: "https://avatar.vercel.sh/john", // Replace with actual image path
     },
     {
-      name: "John Doe",
-      position: "CTO",
+      name: "elies",
+      position: "Oparations manager",
       comment:
         "Acro Nation transformed our digital strategy. Their innovative solutions helped us reach our target audience effectively",
       img: "https://avatar.vercel.sh/jane", // Replace with actual image path
     },
     {
-      name: "John Doe",
-      position: "CTO",
+      name: "Sarah Johnson",
+      position: "CEO",
       comment:
         "Their team is incredibly creative and responsive. They truly understand our vision and bring it to life.",
       img: "https://avatar.vercel.sh/jenny", // Replace with actual image path
     },
     {
-      name: "John Doe",
-      position: "CTO",
+      name: "poll",
+      position: "manager",
       comment:
         "Their forward-thinking approach and attention to detail transformed our digital platforms and gave us a competitive edge.",
       img: "https://avatar.vercel.sh/james", // Replace with actual image path
     },
     {
-      name: "John Doe",
-      position: "CTO",
+      name: "Jessica Smith",
+      position: "marketing manager",
       comment: "Great collaboration and excellent results.",
       img: "https://avatar.vercel.sh/jill", // Replace with actual image path
     },
     {
-      name: "John Doe",
-      position: "CTO",
+      name: "Robert Martinez",
+      position: "CEO",
       comment:
         "Acro Nation's insights and tools have streamlined our processes, leading to higher efficiency and better results.",
       img: "https://avatar.vercel.sh/jill", // Replace with actual image path
