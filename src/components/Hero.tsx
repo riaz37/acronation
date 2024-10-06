@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import Heroleft from "../components/Heroleft";
-import Heroright from "../components/HeroRight";
+import Heroleft from "./Heroleft";
+import Heroright from "./HeroRight";
 
 const Hero = () => {
   return (
