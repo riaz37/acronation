@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.text-section{
+    font-family: "Outfit", system-ui;
+}
+
+.img-section img{
+    max-width: 80px;
+}
+
+.left-bar{
+    transform: translateX(-96px);
+}
+
+.right-bar{
+    transform: translateX(96px);
+}
+
+.upper-shap-1{
+    background: linear-gradient(-225deg,#FFFFFF,#FFFFFF1A);
+}
+
+.upper-shap-2{
+    background: linear-gradient(-45deg,#FFFFFF1A,#FFFFFF);
+}

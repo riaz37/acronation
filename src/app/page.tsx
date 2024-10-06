@@ -1,10 +1,10 @@
-import NavBar from "../Components/navbar";
+import Partnership from "../Components/Partnership";
 
 export default function Home() {
   return (
     <div>
       <main>
-        <NavBar/>
+        <Partnership/>
       </main>
     </div>
   );
