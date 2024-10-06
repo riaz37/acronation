@@ -1,10 +1,6 @@
 import './partnership-page.css'
 import Image from 'next/image';
-import Prop1 from '../public/Property1-0.svg';
-import Prop2 from '../public/Property2-0.svg';
-import Prop3 from '../public/Property3-0.svg';
-import Prop4 from '../public/Property4-0.svg';
-import Prop5 from '../public/Property5-0.svg';
+
 
 const Partnership = () =>{
     return(
@@ -17,20 +13,20 @@ const Partnership = () =>{
                         </div>
                         <div className="h-[120px] w-[1920px] flex justify-between flex-col items-center">
                             <div className="w-[1724px] h-[40px] flex justify-between items-center left-bar">
-                                <Image src={Prop1}/>
-                                <Image src={Prop5}/>
-                                <Image src={Prop4}/>
-                                <Image src={Prop3}/>
-                                <Image src={Prop2}/>
-                                <Image src={Prop1}/>
+                                <Image src="/Property1-0.svg" alt="image1" />
+                                <Image src="/Property1-1.svg" alt="image2"/>
+                                <Image src="/Property2-0.svg" alt="image3"/>
+                                <Image src="/Property3-0.svg" alt="image4"/>
+                                <Image src="/Property3-1.svg" alt="image5"/>
+                                <Image src="/Property4-0.svg" alt="image6"/>
                             </div>
                             <div className="w-[1724px] h-[40px] flex justify-between items-center right-bar">
-                                <Image src={Prop1}/>
-                                <Image src={Prop5}/>
-                                <Image src={Prop4}/>
-                                <Image src={Prop3}/>
-                                <Image src={Prop2}/>
-                                <Image src={Prop1}/>
+                                <Image src="/Property5-1.svg" alt="image1"/>
+                                <Image src="/Property1-0.svg" alt="image2"/>
+                                <Image src="/Property2-0.svg" alt="image3"/>
+                                <Image src="/Property3-1.svg" alt="image4"/>
+                                <Image src="/Property3-1.svg" alt="image5"/>
+                                <Image src="/Property4-0.svg" alt="image6"/>
                             </div>
                         </div>
                         <div className="paragraph w-[904px] h-14 text-center font-[400] text-[#555555]">

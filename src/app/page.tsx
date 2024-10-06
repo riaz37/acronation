@@ -1,12 +1,14 @@
 "use client";
 
 import React from "react";
-import Heroleft from "../components/Heroleft";
-import Heroright from "../components/HeroRight";
+import Heroleft from "../Components/Heroleft";
+import Heroright from "../Components/HeroRight";
+import Partnership from "@/Components/Partnership";
 
-const Hero = () => {
+const Home = () => {
   return (
     <div>
+      
       <div className="p-[70px] font-outfit ">
         <div className="circle-1 absolute w-[150px] h-[150px] bg-purple-500 rounded-full blur-[100px] "></div>
         <div className="absolute w-[400px] h-[400px] bg-purple-500 rounded-full blur-[170px] ml-[1050px] mt-[120px]"></div>
@@ -16,8 +18,9 @@ const Hero = () => {
           <Heroright />
         </div>
       </div>
+      <Partnership/>
     </div>
   );
 };
 
-export default Hero;
+export default Home;
