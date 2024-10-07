@@ -1,6 +1,5 @@
 import cn from "@/lib/cn";
 import Marquee from "@/Components/ui/marquee";
-import Image from "next/image";
 import React from "react";
 
 const reviews = [
@@ -138,7 +137,7 @@ const feedback = [
   },
 ];
 
-const Testimonial = () => {
+export default function Testimonial() {
   return (
     <div className=" my-[50px] px-4">
       <h1 className="text-4xl font-bold text-center mb-4">
@@ -149,7 +148,7 @@ const Testimonial = () => {
         consistent results that drive growth and success
       </p>
 
-      <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden  bg-background md:shadow-xl">
+      <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
         <Marquee pauseOnHover className="[--duration:20s]">
           {firstRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
@@ -163,33 +162,6 @@ const Testimonial = () => {
         <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
         <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"></div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        {feedback.map((item, index) => (
-          <div
-            key={index}
-            className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center hover:bg-gradient-to-tr hover:from-[#FFE1E3] hover:to-[#ACE7FF] transition-all duration-300"
-          >
-            <div className="flex items-center space-x-4">
-              <Image
-                src={item.img}
-                alt={item.name}
-                width={80}
-                height={80}
-                className="rounded-full"
-              />
-              <div>
-                <h2 className="text-2xl font-semibold">{item.name}</h2>
-                <p className="text-sm text-gray-500">{item.position}</p>
-              </div>
-            </div>
-            <p className="text-center text-gray-700 italic mt-4">
-              {item.comment}
-            </p>
-          </div>
-        ))}
-      </div>
     </div>
   );
-};
-
-export default Testimonial;
+}
