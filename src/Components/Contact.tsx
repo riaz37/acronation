@@ -17,7 +17,7 @@ const Contact = () => {
             }}
           ></div>
           <div className="space-y-4 ml-6">
-            <div>
+            <div className="">
               <h1 className="text-4xl font-bold absolute -bottom-[1040px]">
                 Talk to us to improve your
                 <span className="flex items-center">

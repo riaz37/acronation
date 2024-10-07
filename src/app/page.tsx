@@ -11,7 +11,7 @@ import Testimonial from "@/Components/Testimonial/Testimonial";
 
 const Home = () => {
   return (
-    <>
+    <div>
       <div>
         <Hero />
         <ProjectShow />
@@ -24,7 +24,7 @@ const Home = () => {
       </div>
       <Partnership />
       <Contact />
-    </>
+    </div>
   );
 };
 
