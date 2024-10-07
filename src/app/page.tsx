@@ -4,6 +4,7 @@ import React from "react";
 import Heroleft from "../Components/Heroleft";
 import {HeroRight} from "../Components/HeroRight";
 import Partnership from "@/Components/Partnership";
+import Contact from "@/Components/Contact";
 
 const Home = () => {
   return (
@@ -19,6 +20,9 @@ const Home = () => {
         </div>
       </div>
       <Partnership/>
+      <div>
+        <Contact></Contact>
+      </div>
     </div>
   );
 };
