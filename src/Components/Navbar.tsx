@@ -26,9 +26,7 @@ const NavBar = () => {
                     lg:w-full h-[54px]
                     flex
                     justify-between
-                    items-center
-                    sm:w-full
-                    1sm:w-9/12"
+                    items-center"
           >
             <div
               className="main-logo
@@ -38,7 +36,6 @@ const NavBar = () => {
             >
               <Image src="/Group.svg" width="148" height="50" alt="logo" />
             </div>
-
             <div
               className="nav-links-and-btn
                         lg:w-[761px]
