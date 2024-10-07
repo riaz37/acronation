@@ -25,7 +25,7 @@ const Heroleft = () => {
 
   return (
     <div>
-      <div className="w-[812px] h-screen ">
+      <div className="w-[812px] h-[579.77px] ">
         {/* upper button */}
         <button
           onMouseEnter={() => {
