@@ -25,7 +25,6 @@ const Home = () => {
       <Contact />
       <ProjectShow />
       <Testimonial />
-      <Partnership />
     </div>
   );
 };
