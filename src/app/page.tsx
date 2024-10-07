@@ -9,8 +9,7 @@ import { HeroRight } from "@/Components/HeroRight";
 
 const Home = () => {
   return (
-    <>
-      {" "}
+    <div>
       <div>
         <Hero />
         <Partnership />
@@ -21,7 +20,11 @@ const Home = () => {
       </div>
       <Partnership />
       <Contact />
-    </>
+      <Partnership />
+      <div>
+        <Contact />
+      </div>
+    </div>
   );
 };
 
