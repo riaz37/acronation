@@ -2,12 +2,17 @@
 
 import React from "react";
 import Heroleft from "../Components/Heroleft";
-import {HeroRight} from "../Components/HeroRight";
+import { HeroRight } from "../Components/HeroRight";
 import Partnership from "@/Components/Partnership";
+import Hero from "@/Components/Hero";
 
 const Home = () => {
   return (
     <div>
+<<<<<<< HEAD
+      <Hero />
+      <Partnership />
+=======
       
       <div className="p-[70px] font-outfit flex justify-center items-center">
         <div className="circle-1 absolute w-[150px] h-[150px] bg-purple-500 rounded-full blur-[100px] "></div>
@@ -19,6 +24,7 @@ const Home = () => {
         </div>
       </div>
       <Partnership/>
+>>>>>>> 5ebbfb616b7e6188ee2afde57dedaec7a0a97b54
     </div>
   );
 };
