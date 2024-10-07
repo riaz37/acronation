@@ -36,7 +36,7 @@ const ProjectShow = () => {
               <h4>result and analysis</h4>
             </div>
           </div>
-          <button
+           <button
             onMouseEnter={() => {
               gsap.to(".icn-2", { rotate: 90, scale: 1.2, duration: 0.3 });
             }}
@@ -46,7 +46,7 @@ const ProjectShow = () => {
             className="mt-5 active:scale-105 flex items-center gap-[4px] text-white group"
           >
             <h1 className="bttn text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full group-hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
-              all case study
+              All case study
             </h1>
             <div className="p-[15px] text-[26px] bg-[#1877F2] rounded-r-full group-hover:bg-gradient-to-br from-[#6d4cff] via-[#1177F2] to-[#1177F2]">
               <FaLongArrowAltUp
