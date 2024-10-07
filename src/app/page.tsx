@@ -23,6 +23,8 @@ const Home = () => {
         <HeroRight />
       </div>
       <Contact />
+      <ProjectShow />
+      <Testimonial />
     </div>
   );
 };
