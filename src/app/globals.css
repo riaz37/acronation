@@ -12,11 +12,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: outfit, sans-serif;
-<<<<<<< HEAD
-  
-=======
   overflow: hidden;
->>>>>>> cd67476b9606aecbad907583e07ea0add201c09d
 }
 /* @layer base {
   :root {
