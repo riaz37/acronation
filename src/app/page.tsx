@@ -25,6 +25,10 @@ const Home = () => {
       <Contact />
       <ProjectShow />
       <Testimonial />
+      <Partnership />
+      <div>
+        <Contact />
+      </div>
     </div>
   );
 };
