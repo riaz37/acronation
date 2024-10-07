@@ -1,7 +1,7 @@
 import React from "react";
-import Service from "@/Components/Service-upper";
 import ServiceCategory from "@/featrues/services/ServiceCategory";
 import ServicesOverview from "@/featrues/services/ServicesOverview";
+import Service from "@/Components/Service-upper";
 
 const Page = () => {
   return (
@@ -9,6 +9,9 @@ const Page = () => {
       <Service />
       <ServicesOverview />
       <ServiceCategory />
+      <div>
+        <Service />
+      </div>
     </div>
   );
 };
