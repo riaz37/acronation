@@ -1,5 +1,5 @@
-import Marquee from "@/Components/ui/marquee";
 import cn from "@/lib/cn";
+import Marquee from "@/Components/ui/marquee";
 import Image from "next/image";
 import React from "react";
 

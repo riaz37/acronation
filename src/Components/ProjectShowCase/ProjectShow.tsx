@@ -37,7 +37,7 @@ const ProjectShow = () => {
               <h4>Result and Analysis</h4>
             </div>
           </div>
-          <button
+           <button
             onMouseEnter={() => {
               gsap.to(".icn-2", { rotate: 90, scale: 1.2, duration: 0.3 });
             }}
