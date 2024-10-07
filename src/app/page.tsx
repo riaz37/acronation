@@ -6,7 +6,7 @@ import Partnership from "@/Components/Partnership";
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-auto">
       <Hero />
       <Partnership />
     </div>
