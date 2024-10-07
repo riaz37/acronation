@@ -4,6 +4,7 @@ import React from "react";
 import Heroleft from "./Heroleft";
 import { HeroRight } from "../Components/HeroRight";
 
+
 const Hero = () => {
   return (
     <div className="w-full h-screen flex justify-center items-center ">
