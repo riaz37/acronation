@@ -18,12 +18,8 @@ const Home = () => {
         <Heroleft />
         <HeroRight />
       </div>
-      <Partnership />
       <Contact />
-      <Partnership />
-      <div>
-        <Contact />
-      </div>
+      <Hero />
     </div>
   );
 };
