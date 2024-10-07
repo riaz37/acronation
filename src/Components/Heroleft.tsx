@@ -15,11 +15,11 @@ const Heroleft = () => {
   useGSAP(() => {
     const tl = gsap.timeline();
     tl.to(ref1.current, { y: 0, duration: 1, opacity: 1 });
-    tl.to(ref1.current, { duration: 0.5, opacity: 1 }, "-=0.5");
-    tl.to(ref2.current, { y: 0, duration: 1, opacity: 1 }, "-=0.5");
-    tl.to(ref3.current, { y: 0, duration: 1, opacity: 1 }, "-=0.5");
-    tl.to(ref4.current, { y: 0, duration: 1, opacity: 1 }, "-=0.5");
-    tl.to(ref5.current, { y: 0, duration: 1, opacity: 1 }, "-=0.5");
+    tl.to(ref1.current, { duration: 0.5, opacity: 1 }, "-=0.7");
+    tl.to(ref2.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
+    tl.to(ref3.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
+    tl.to(ref4.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
+    tl.to(ref5.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
   });
 
   return (
@@ -89,12 +89,12 @@ const Heroleft = () => {
             onMouseLeave={() => {
               gsap.to(".icn-2", { rotate: 45, scale: 1, duration: 0.3 });
             }}
-            className="mt-5 active:scale-105 flex items-center gap-[4px] text-white"
+            className="mt-5 active:scale-105 flex items-center gap-[4px] text-white group"
           >
-            <h1 className="bttn text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
+            <h1 className="bttn text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full group-hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
               Get Started
             </h1>
-            <div className="p-[15px] text-[26px] bg-[#1877F2] rounded-r-full hover:bg-gradient-to-br from-[#6d4cff] via-[#1177F2] to-[#1177F2]">
+            <div className="p-[15px] text-[26px] bg-[#1877F2] rounded-r-full group-hover:bg-gradient-to-br from-[#6d4cff] via-[#1177F2] to-[#1177F2]">
               <FaLongArrowAltUp
                 className="icn-2"
                 style={{ transform: "rotate(45deg)" }}
