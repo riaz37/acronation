@@ -26,12 +26,18 @@ const NavBar = () => {
             style={{ marginTop: "30px", marginBottom: "80px" }}
           >
             <div
-              className="nav-child-section
-                  lg:w-full h-[54px]
-                  flex
-                  justify-between
-                  items-center"
-              style={{ width: "100%", maxWidth: "1600px" }}
+              className="nav-section-container
+                 px-[50px]
+                  py-[30px]
+                   h-full
+                   h-[114px]
+                   h-full
+                   w-full
+                   max-w-[1600px]
+                   flex
+                   justify-center
+                   items-center"
+              style={{ marginTop: "30px", marginBottom: "80px" }}
             >
               <div
                 className="main-logo
