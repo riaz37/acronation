@@ -3,6 +3,7 @@ import { FaLongArrowAltUp } from "react-icons/fa";
 import Image from "next/image";
 import fbllog from "../../../public/fbl.png";
 import flobite from "../../../public/flowbies.svg";
+import React from "react";
 
 const ProjectShow = () => {
   return (
@@ -37,7 +38,7 @@ const ProjectShow = () => {
               <h4>Result and Analysis</h4>
             </div>
           </div>
-           <button
+          <button
             onMouseEnter={() => {
               gsap.to(".icn-2", { rotate: 90, scale: 1.2, duration: 0.3 });
             }}
