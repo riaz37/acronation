@@ -31,7 +31,9 @@ const HeroRight = () => {
         className="innerCircle relative w-[300px] h-[300px] rounded-full bg-transparent border-[3px] border-[#ffffff]"
       >
         <img
-          className=" absolute w-[70px] h-[70px] top-[-30px] left-[120px] "
+          className=" absolute w-[70px] h-[70px] top-[-30px]
+           left-[120px]
+            "
           src="https://img.icons8.com/color/512/css3.png"
           alt=""
         />
