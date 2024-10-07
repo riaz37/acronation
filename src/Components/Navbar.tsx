@@ -18,6 +18,7 @@ const NavBar = () => {
                   py-[30px]
                    h-full
                    h-[114px]
+                   h-full
                    w-full
                    max-w-[1600px]
                    flex
