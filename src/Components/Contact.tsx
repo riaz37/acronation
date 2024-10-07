@@ -4,7 +4,7 @@
 const Contact = () => {
   return (
     <div className="w-[350px] lg:w-full flex items-center content-center h-[500px]  p-10 mx-auto">
-      <div className=" flex flex-col lg:flex-row justify-between flex-1 gap-36 items-center ">
+      <div className="flex flex-col lg:flex-row justify-between flex-1 gap-36 items-center">
         <div>
           <div
             className="relative"
@@ -18,10 +18,9 @@ const Contact = () => {
           ></div>
           <div className="space-y-4 ml-6">
             <div className="">
-              <h1 className="text-4xl  font-bold absolute -bottom-[1040px]">
+              <h1 className="text-4xl font-bold absolute -bottom-[1040px]">
                 Talk to us to improve your
                 <span className="flex items-center">
-                  {" "}
                   website <img src="/bg.png" alt="" className="h-10" />
                 </span>
               </h1>
@@ -34,29 +33,27 @@ const Contact = () => {
               <div className="flex items-center gap-2">
                 <img className="h-4" src="/right.png" alt="" />
                 <p>
-                  We You'll be talking to product and tech experts (no account
-                  manager )
+                  You'll be talking to product and tech experts (no account
+                  manager)
                 </p>
               </div>
-
               <div className="flex gap-1">
                 <button className="btn bg-[#1877F2] text-white rounded-tl-full rounded-bl-full rounded-tr-4 rounded-br-4 p-3 hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
                   Emergency Chat
                 </button>
                 <button className="bg-[#1877F2] rounded-tl-4 rounded-tr-full rounded-br-full rounded-l-4 p-3 hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
-                  {" "}
                   <img src="/btn.png" alt="" />
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex-1 ">
+        <div className="flex-1">
           <form>
             <div className="flex gap-2">
               <div>
                 <label>
-                  <span className="font-semibold"> Enter Your Name</span>
+                  <span className="font-semibold">Enter Your Name</span>
                 </label>
                 <br />
                 <input
@@ -65,7 +62,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label htmlFor="">
+                <label>
                   <span className="font-semibold">Enter Your Email</span>
                 </label>
                 <br />
@@ -76,34 +73,27 @@ const Contact = () => {
               </div>
             </div>
             <div className="mt-4">
-              <label htmlFor="">
+              <label>
                 <span className="font-semibold">
-                  which services interested?
+                  Which services are you interested in?
                 </span>
               </label>
               <br />
-              <select
-                name=""
-                id=""
-                className="bg-[#F5F5F5] mt-2 h-[38px] w-[408px] p-2 outline-slate-300"
-              >
-                <option value="landing">landing page</option>
+              <select className="bg-[#F5F5F5] mt-2 h-[38px] w-[408px] p-2 outline-slate-300">
+                <option value="landing">Landing page</option>
               </select>
             </div>
             <div className="mt-4">
-              <label htmlFor="">
-                <span className="font-semibold">Type your message: </span>
+              <label>
+                <span className="font-semibold">Type your message:</span>
               </label>
               <br />
-              <input
-                type="textarea"
-                className="bg-[#F5F5F5] mt-4 h-[100px] w-[408px] p-2 outline-slate-300"
-              />
+              <textarea className="bg-[#F5F5F5] mt-4 h-[100px] w-[408px] p-2 outline-slate-300" />
             </div>
-            <button className="group bg-[#1877F2] p-3 text-white flex justify-center items-center gap-2 rounded-full mt-2 hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
+            <button className="bg-[#1877F2] p-3 text-white flex justify-center items-center gap-2 rounded-full mt-2 hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
               Send
               <img
-                className="transform  group-hover:rotate-45 transition-transform duration-300 "
+                className="transform group-hover:rotate-45 transition-transform duration-300"
                 src="/send.png"
                 alt=""
               />
