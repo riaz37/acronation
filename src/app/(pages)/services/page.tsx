@@ -5,11 +5,12 @@ import Service from "@/Components/Service-upper";
 
 const Page = () => {
   return (
-    <div className="w-full flex flex-col">
+    <div>
       <Service />
-      <ServicesOverview />
-      <ServiceCategory />
-      <Service />
+      <div className="w-full flex flex-col">
+        <ServicesOverview />
+        <ServiceCategory />
+      </div>
     </div>
   );
 };
