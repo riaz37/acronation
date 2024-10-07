@@ -2,11 +2,8 @@
 
 import React from "react";
 import Heroleft from "./Heroleft";
-<<<<<<< HEAD
-import { HeroRight } from "./HeroRight";
-=======
 import { HeroRight } from "../Components/HeroRight";
->>>>>>> cd67476b9606aecbad907583e07ea0add201c09d
+
 
 const Hero = () => {
   return (
