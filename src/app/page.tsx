@@ -19,7 +19,6 @@ const Home = () => {
         <HeroRight />
       </div>
       <Contact />
-      <Hero />
     </div>
   );
 };
