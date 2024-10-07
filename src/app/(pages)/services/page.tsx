@@ -9,9 +9,7 @@ const Page = () => {
       <Service />
       <ServicesOverview />
       <ServiceCategory />
-      <div>
-        <Service />
-      </div>
+      <Service />
     </div>
   );
 };
