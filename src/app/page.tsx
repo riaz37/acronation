@@ -9,17 +9,14 @@ import Contact from "@/Components/Contact";
 import ProjectShow from "@/Components/ProjectShowCase/ProjectShow";
 import Testimonial from "@/Components/Testimonial/Testimonial";
 
-
 const Home = () => {
   return (
     <div>
-
       <Hero />
       <ProjectShow />
       <Testimonial />
       <Partnership />
-      <Contact/>
-
+      <Contact />
     </div>
   );
 };
