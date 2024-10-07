@@ -5,12 +5,10 @@ import ServicesOverview from "@/featrues/services/ServicesOverview";
 
 const Page = () => {
   return (
-    <div>
+    <div className="w-full flex flex-col">
       <Service />
-      <div className="w-full flex flex-col">
-        <ServicesOverview />
-        <ServiceCategory />
-      </div>
+      <ServicesOverview />
+      <ServiceCategory />
     </div>
   );
 };
