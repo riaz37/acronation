@@ -6,6 +6,7 @@ import {HeroRight} from "../Components/HeroRight";
 import Partnership from "@/Components/Partnership";
 import Contact from "@/Components/Contact";
 
+
 const Home = () => {
   return (
     <div>
@@ -22,6 +23,9 @@ const Home = () => {
       <Partnership/>
       <div>
         <Contact></Contact>
+      </div>
+      <div>
+        
       </div>
     </div>
   );
