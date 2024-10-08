@@ -1,5 +1,4 @@
 "use client"
-// import background from '../../public/circle.svg';
 
 const Contact = () => {
     return (
@@ -73,9 +72,10 @@ const Contact = () => {
                    <br />
                    <input type="textarea"  className="bg-[#F5F5F5] mt-4 h-[100px] w-[408px] p-2 outline-slate-300"/>
                    </div>
-                   <button className="bg-[#1877F2] p-3 text-white flex justify-center items-center gap-2 rounded-full mt-2 hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
+                   <button
+                    className="group bg-[#1877F2] p-3 text-white flex justify-center items-center gap-2 rounded-full mt-2 hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
                     Send
-                    <img src="/send.png" alt=""  />
+                    <img  className="transform  group-hover:rotate-45 transition-transform duration-300 "  src="/send.png" alt=""  />
                     </button>
                 </form>
             </div>
