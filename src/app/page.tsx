@@ -9,22 +9,20 @@ import { HeroRight } from "@/Components/HeroRight";
 import ProjectShow from "@/Components/ProjectShowCase/ProjectShow";
 import Testimonial from "@/Components/Testimonial/Testimonial";
 
+
 const Home = () => {
   return (
     <div>
       <div>
-        <Hero />
+        <div className="flex justify-between">
+        <Hero/>
+      </div>
         <ProjectShow />
         <Testimonial />
         <Partnership />
+         <Contact />
       </div>
-      <div className="flex justify-between">
-        <Heroleft />
-        <HeroRight />
-      </div>
-      <Contact />
-    </div>
-  );
+      );
 };
 
 export default Home;
