@@ -8,17 +8,17 @@ const NavBar = () =>{
     const pathname = usePathname();
 
     return(
-        <>
-            <div className="main-navbar-container w-screen flex justify-center items-center h-[114px]">
+        <div className="w-screen h-[224px] flex justify-center items-center">
+            <div className="main-navbar-container w-[1920px] flex justify-center items-center h-full">
                 <div className="nav-section-container
                  px-[50px]
                   py-[30px]
-                   h-full 
+                   h-[114px]
                    w-full 
                    max-w-[1600px] 
                    flex 
                    justify-center 
-                   items-center">
+                   items-center mt-[30px] mb-[80px]">
 
                     <div className="nav-child-section 
                     lg:w-full h-[54px] 
@@ -83,7 +83,7 @@ const NavBar = () =>{
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 
