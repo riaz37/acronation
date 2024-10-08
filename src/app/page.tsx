@@ -12,7 +12,7 @@ import Testimonial from "@/Components/Testimonial/Testimonial";
 
 const Home = () => {
   return (
-    <div>
+   
       <div>
         <div className="flex justify-between">
         <Hero/>
