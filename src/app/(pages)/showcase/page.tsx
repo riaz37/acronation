@@ -1,11 +1,12 @@
-import React from 'react'
+import ShowcaseCompo from "@/Components/ShowcaseCompo";
+import React from "react";
 
 const ShowCase = () => {
   return (
     <div>
-      <h1>showcase</h1>
+      <ShowcaseCompo />
     </div>
-  )
-}
+  );
+};
 
-export default ShowCase
+export default ShowCase;
