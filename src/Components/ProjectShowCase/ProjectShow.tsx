@@ -7,7 +7,7 @@ import flobite from "../../../public/flowbies.svg";
 const ProjectShow = () => {
   return (
     <div>
-      <div className="">
+      <div>
         <div className="flex px-[62px] w-[1600px] ">
           <div className=" w-[672px]">
             <h1 className="text-[48px] font-bold  ">

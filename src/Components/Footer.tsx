@@ -69,7 +69,7 @@ const footerLinks = [
 const Footer = () => {
   return (
     <>
-      <div className=" py-10 px-8">
+      <div className="bg-[#F3F9FF] py-10 px-8">
         <div className="max-w-screen-lg w-full mx-auto">
           <h1 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl text-center font-bold">
             Stay In Touch for the{" "}
