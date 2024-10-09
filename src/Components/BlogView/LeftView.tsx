@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { IoCalendar } from "react-icons/io5";
 import { MdOutlineFavorite } from "react-icons/md";
 import { BiCommentDots } from "react-icons/bi";
+import ContactForm from '../ContactForm';
 const LeftView = () => {
     const blog =  {
         title: "Empowering Business Growth.",
@@ -15,7 +16,7 @@ const LeftView = () => {
         image_url: "https://i.ibb.co.com/PT2CgQx/alvaro-reyes-q-Wwp-Hwip31-M-unsplash.jpg",
     }
     return (
-        <div className='col-span-3'>
+        <div className='col-span-2'>
             <Image src={blog.image_url} alt={blog.title} width={1100} height={600} className='rounded-xl h-[600px] w-full'></Image>
            <div className='px-8'>
            <div className='text-[#1877F2] pt-6 flex items-center gap-4'>
@@ -40,6 +41,7 @@ const LeftView = () => {
             <h3 className='text-[34px] font-bold my-3'>
             Let's explore the possibilities together.
             </h3>
+            <ContactForm></ContactForm>
         </div>
     );
 };
