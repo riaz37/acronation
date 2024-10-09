@@ -6,10 +6,10 @@ import connect from "@/dbConfig/dbConfig";
 import { getDataFromToken } from "@/helpers/getDataFromToken";
 
 
-connect()
 
 
 export async function POST(request: NextRequest){
+    await connect()
     try {
         const reqBody = await request.json()
         const {username, email, password} = reqBody
