@@ -210,6 +210,9 @@ const AboutUs = () =>{
                             </div>
                         </div>
                     </div>
+                    <div className="w-full h-20">
+                        {/* this div screted for creating space under upper section */}
+                    </div>
                 </div>
             </div>
         </>
