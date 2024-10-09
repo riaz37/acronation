@@ -3,7 +3,7 @@ import Image from "next/image";
 const AboutUs = () =>{
     return(
         <>
-            <div className="w-screen h-[870px] flex justify-center items-center">
+            <div className="w-screen h-[980px] flex justify-center items-center">
                 <div className="w-full max-w-[1920px] h-full flex flex-col justify-between items-center">
                     <div className="w-full h-[446px] max-w-[1600px] flex justify-center items-start bg-gradient-to-r from-[#FBFAFF] to-[#FBF7FE]">
                         <div className="w-[1600px] h-[366px] flex justify-between items-center">
