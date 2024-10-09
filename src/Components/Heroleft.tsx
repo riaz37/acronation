@@ -20,7 +20,7 @@ const Heroleft = () => {
     tl.to(ref1.current, { y: -5, duration: 1, opacity: 1 });
     tl.to(ref1.current, { duration: 0.5, opacity: 1 }, "-=0.7");
     tl.to(ref2.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
-    tl.to(ref3.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
+    tl.to(ref3.current, { y: -5, duration: 1, opacity: 1 }, "-=0.7");
     tl.to(ref4.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
     tl.to(ref5.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
   });
