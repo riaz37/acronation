@@ -3,6 +3,8 @@ import { FaLongArrowAltUp } from "react-icons/fa";
 import Image from "next/image";
 import fbllog from "../../../public/fbl.png";
 import flobite from "../../../public/flowbies.svg";
+import React from "react";
+
 const ProjectShow = () => {
   return (
     <div className="w-screen h-auto flex justify-center items-center">
@@ -33,10 +35,10 @@ const ProjectShow = () => {
             </div>
             <div className="flex">
               <PiCheckCircleFill className="text-blue-500 m-1" />
-              <h4>result and analysis</h4>
+              <h4>Result and Analysis</h4>
             </div>
           </div>
-           <button
+          <button
             onMouseEnter={() => {
               gsap.to(".icn-2", { rotate: 90, scale: 1.2, duration: 0.3 });
             }}
@@ -60,7 +62,6 @@ const ProjectShow = () => {
           <h1>Latest project</h1>
           <div className="flex m-2 p-2 w-[868px]">
             <div className="bg-[#F5F5F5] mx-4 h-[110px] w-[110px] rounded-md flex items-center justify-center">
-              {/* Using Next.js Image for the logo */}
               <Image src={flobite} alt="Project Logo" width={80} height={80} />
             </div>
             <div className="w-[400px]">
@@ -73,7 +74,7 @@ const ProjectShow = () => {
             </div>
             <button className="flex ml-10 text-white">
               <h1 className=" text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
-                case study
+                Case study
               </h1>
               <div className="p-[15px] text-[26px] bg-[#1877F2] rounded-r-full hover:bg-gradient-to-br from-[#6d4cff] via-[#1177F2] to-[#1177F2] ml-1">
                 <FaLongArrowAltUp
@@ -85,7 +86,6 @@ const ProjectShow = () => {
           </div>
           <div className="flex m-2 p-2 w-[868px]">
             <div className="bg-[#F5F5F5] mx-4 h-[110px] w-[110px] rounded-md flex items-center justify-center">
-              {/* Using Next.js Image for the logo */}
               <Image src={fbllog} alt="Project Logo" width={80} height={80} />
             </div>
             <div className="w-[400px]">
@@ -98,32 +98,7 @@ const ProjectShow = () => {
             </div>
             <button className="flex ml-10 text-white">
               <h1 className=" text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
-                case study
-              </h1>
-              <div className="p-[15px] text-[26px] bg-[#1877F2] rounded-r-full hover:bg-gradient-to-br from-[#6d4cff] via-[#1177F2] to-[#1177F2] ml-1">
-                <FaLongArrowAltUp
-                  className="icn-2"
-                  style={{ transform: "rotate(45deg)" }}
-                />
-              </div>
-            </button>
-          </div>
-          <div className="flex m-2 p-2 w-[868px]">
-            <div className="bg-[#F5F5F5] mx-4 h-[110px] w-[110px] rounded-md flex items-center justify-center">
-              {/* Using Next.js Image for the logo */}
-              <Image src={flobite} alt="Project Logo" width={80} height={80} />
-            </div>
-            <div className="w-[400px]">
-              <h1 className="text-[24px]">
-                Transforming Online Learning with Flowbies
-              </h1>
-              <p className="text-[16px] p-2 w-[450px]">
-                Flowbies revolutionized digital education by creating a
-              </p>
-            </div>
-            <button className="flex ml-10 text-white">
-              <h1 className=" text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
-                case study
+                Case study
               </h1>
               <div className="p-[15px] text-[26px] bg-[#1877F2] rounded-r-full hover:bg-gradient-to-br from-[#6d4cff] via-[#1177F2] to-[#1177F2] ml-1">
                 <FaLongArrowAltUp
