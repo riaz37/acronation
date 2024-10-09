@@ -15,18 +15,17 @@ const NavBar = () => {
           className="nav-section-container
                  px-[50px]
                   py-[30px]
-                   h-[114px]
-                   w-full
-                   max-w-[1600px]
-                   flex
-                   justify-center
-                   items-center mt-[30px] mb-[80px]"
-        >
-          <div
-            className="nav-child-section
-                    lg:w-full h-[54px]
-                    flex
-                    justify-between
+                   h-full 
+                   w-full 
+                   max-w-[1600px] 
+                   flex 
+                   justify-center 
+                   items-center">
+
+                    <div className="nav-child-section 
+                    lg:w-full h-[54px] 
+                    flex 
+                    justify-between 
                     items-center
                     sm:w-full
                     1sm:w-9/12"
@@ -96,37 +95,25 @@ const NavBar = () => {
                 </ul>
               </div>
 
-              <div
-                className="btn-CTA
-                            min-w-[185px]
-                            h-[54px]
-                            flex
-                            justify-between
-                            items-center"
-              >
-                <button className="btn-name">
-                  <Image
-                    src="/Frame_842.svg"
-                    width="127"
-                    height="54"
-                    alt="cta"
-                  />
-                </button>
-                <button className="btn-name w-[54px] h-[54px] bg-[#282828] flex justify-center items-center">
-                  <Image
-                    src="/Frame_843.svg"
-                    width="54"
-                    height="54"
-                    alt="cta"
-                  />
-                </button>
-              </div>
+                            <div className="btn-CTA 
+                            min-w-[185px] 
+                            h-[54px] 
+                            flex 
+                            justify-between 
+                            items-center">
+                                <button className='btn-name'>
+                                    <Image src="/Frame_842.svg" width="127" height="54" alt="cta"/>
+                                </button>
+                                <button className='btn-name w-[54px] h-[54px] bg-[#282828] flex justify-center items-center'>
+                                    <Image src="/Frame_843.svg" width="54" height="54" alt="cta"/>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  );
-};
+    );
+}
 
 export default NavBar;
