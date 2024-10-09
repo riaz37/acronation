@@ -5,8 +5,8 @@ import fbllog from "../../../public/fbl.png";
 import flobite from "../../../public/flowbies.svg";
 const ProjectShow = () => {
   return (
-    <div>
-      <div className="flex px-[62px] w-[1600px] ">
+    <div className="w-screen h-auto flex justify-center items-center">
+      <div className="flex w-[1600px]">
         <div className=" w-[672px]">
           <h1 className="text-[48px] font-bold  ">
             Our Thinking <span className="text-[#1877F2]">Solutions</span>

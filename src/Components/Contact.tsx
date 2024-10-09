@@ -4,18 +4,19 @@ const Contact = () => {
     return (
       <div className="w-[350px] lg:w-full flex items-center content-center h-[500px]  p-10 mx-auto">
           <div className=" flex flex-col lg:flex-row justify-between flex-1 gap-36 items-center ">
-            <div>
-            <div className="relative"  
+            <div className="circle relative z-0 sm:h-150 sm:w-150 md:h-175 md:w-175 lg:h-200 lg:w-200">
+            <div className="absolute top-0 left-0 sm:-top-12 md:-top-16 lg:-top-20 xl:-top-24"  
                       style={{
                         background: 'radial-gradient(circle at top left, #ffffff 50%, #6fb8ff 100%)',
                         height:"200px",
                         width: "200px",
                         borderRadius:"100%"
                       }}
+                      
         ></div>
-            <div className="space-y-4 ml-6">
+            <div className="space-y-4 ml-6  z-10">
             <div className="">
-            <h1 className="text-4xl  font-bold absolute -bottom-[1040px]">
+            <h1 className="text-4xl  font-bold relative z-10 ">
                 Talk to us to improve your 
                <span className="flex items-center"> website <img src="/bg.png" alt="" className="h-10"/></span>
                </h1>
