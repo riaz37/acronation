@@ -27,7 +27,7 @@ const Heroleft = () => {
 
   return (
     <div>
-      <div className="w-[812px] h-[579.77px] ">
+      <div className="heroLeftM w-[812px] h-[579.77px] ">
         {/* upper button */}
         <button
           onMouseEnter={() => {
@@ -57,7 +57,7 @@ const Heroleft = () => {
           </div>
         </button>
         {/* header */}
-        <div className="flex relative mt-[30px]">
+        <div className="heroHead flex relative mt-[30px]">
           <h1 className="text-[64px] font-black leading-[74px]">
             <div className="bounding">
               <h1 ref={ref1}>
@@ -68,52 +68,56 @@ const Heroleft = () => {
               ref={ref5}
               autoPlay
               src="/hero.mp4"
-              className="w-[116px] h-[60px] bg-slate-400 rounded-full absolute top-[14px] right-[20px] opacity-0"
+              className="vdo w-[116px] h-[60px] bg-slate-400 rounded-full absolute top-[14px] right-[20px] opacity-0"
             ></video>{" "}
             <div className="bounding">
               <h1 ref={ref2}>solution crafted with</h1>
             </div>{" "}
-            <div className="bounding">
-              <h1 ref={ref3}>precision for your unique</h1>
+            <div className="bounding txt3">
+              <h1 ref={ref3}>precision for your unique </h1>
             </div>{" "}
             <div className="bounding">
               <h1 ref={ref4}>brand. </h1>
             </div>
           </h1>
         </div>
-        <p className="text-[20px] mt-[30px] ">
+        <p className="disc text-[20px] mt-[30px] ">
           You can submit short articles or posts to this website to showcase
           your expertise and contribute valuable insights to your audience.
         </p>
         <div className="flex items-center justify-start gap-5 mt-[40px]">
           {/* lower button */}
-          <button
-            onMouseEnter={() => {
-              gsap.to(".icn-2", { rotate: 90, scale: 1.2, duration: 0.3 });
-            }}
-            onMouseLeave={() => {
-              gsap.to(".icn-2", { rotate: 45, scale: 1, duration: 0.3 });
-            }}
-            className="mt-5 active:scale-105 flex items-center gap-[4px] text-white group"
-          >
-            <h1 className="bttn text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full group-hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
-              Get Started
-            </h1>
-            <div className="p-[15px] text-[26px] bg-[#1877F2] rounded-r-full group-hover:bg-gradient-to-br from-[#6d4cff] via-[#1177F2] to-[#1177F2]">
-              <FaLongArrowAltUp
-                className="icn-2"
-                style={{ transform: "rotate(45deg)" }}
-              />
+          <div className="footer flex gap-3">
+            <button
+              onMouseEnter={() => {
+                gsap.to(".icn-2", { rotate: 90, scale: 1.2, duration: 0.3 });
+              }}
+              onMouseLeave={() => {
+                gsap.to(".icn-2", { rotate: 45, scale: 1, duration: 0.3 });
+              }}
+              className="heroBtn2 mt-5 active:scale-105 flex items-center gap-[4px] text-white group"
+            >
+              <h1 className="bttn text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full group-hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
+                Get Started
+              </h1>
+              <div className="btn2Icn p-[15px] text-[26px] bg-[#1877F2] rounded-r-full group-hover:bg-gradient-to-br from-[#6d4cff] via-[#1177F2] to-[#1177F2]">
+                <FaLongArrowAltUp
+                  className="icn-2"
+                  style={{ transform: "rotate(45deg)" }}
+                />
+              </div>
+            </button>
+            {/* stars */}
+            <div className="heroFooter mt-4 flex items-center gap-2">
+              <div className="flex items-center gap-1">
+                <FaStar className="star" color="#1877F2" size={20} />
+                <FaStar className="star" color="#1877F2" size={20} />
+                <FaStar className="star" color="#1877F2" size={20} />
+                <FaStar className="star" color="#1877F2" size={20} />
+                <FaStar className="star" color="#1877F2" size={20} />
+              </div>
+              <h3 className="text-[16px] font-semibold">4.5 (5k+)</h3>
             </div>
-          </button>
-          {/* stars */}
-          <div className="mt-4 flex items-center gap-2">
-            <FaStar color="#1877F2" size={20} />
-            <FaStar color="#1877F2" size={20} />
-            <FaStar color="#1877F2" size={20} />
-            <FaStar color="#1877F2" size={20} />
-            <FaStar color="#1877F2" size={20} />
-            <h3 className="text-[16px] font-semibold">4.5</h3>
           </div>
         </div>
       </div>
