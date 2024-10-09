@@ -12,7 +12,7 @@ const page = () => {
                 <p className="mt-4">Discover how technology, creativity, and strategy converge in our blog, where we <br /> share the latest innovations and insights shaping the future of digital solutions.</p>
             </div>
             <div className="w-screen gap-[84px] flex justify-center mt-[100px] mb-[100px]">
-                <BlogLeft></BlogLeft>
+                <BlogLeft/>
                 <BlogRight />
             </div>
         </div>
