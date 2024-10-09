@@ -5,6 +5,8 @@ import { FaStar } from "react-icons/fa6";
 import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import "./hero.css";
+import Image from "next/image";
 
 const Heroleft = () => {
   const ref1 = useRef(null);
@@ -15,7 +17,7 @@ const Heroleft = () => {
 
   useGSAP(() => {
     const tl = gsap.timeline();
-    tl.to(ref1.current, { y: 0, duration: 1, opacity: 1 });
+    tl.to(ref1.current, { y: -5, duration: 1, opacity: 1 });
     tl.to(ref1.current, { duration: 0.5, opacity: 1 }, "-=0.7");
     tl.to(ref2.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
     tl.to(ref3.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
@@ -37,10 +39,12 @@ const Heroleft = () => {
           className="btn-1 py-[4px] px-[14px] bg-gradient-to-br to-bottom-right from-[#AF82FF] via-[#FFE1E3] via-30% to-[#ACE7FF] to-bottom-right rounded-full text-black active:scale-105 flex items-center gap-3 text-xl "
         >
           <div className="w-[45px] h-[40px] bg-slate-100 rounded-l-full flex justify-center items-center">
-            <img
+            <Image
               className="w-[80%] h-[80%] object-contain py-[4xp] px-[4px] rounded-full bg-slate-100"
               src="https://i.pinimg.com/originals/7d/2b/fa/7d2bfa16e56d5a8a25ac6cb63dae61f1.png"
               alt=""
+              width={100}
+              height={100}
             />
           </div>
           <h1>Web related solution </h1>
@@ -64,7 +68,7 @@ const Heroleft = () => {
               ref={ref5}
               autoPlay
               src="/hero.mp4"
-              className="w-[116px] h-[60px] bg-slate-400 rounded-full absolute top-[14px] right-[40px] opacity-0"
+              className="w-[116px] h-[60px] bg-slate-400 rounded-full absolute top-[14px] right-[20px] opacity-0"
             ></video>{" "}
             <div className="bounding">
               <h1 ref={ref2}>solution crafted with</h1>

@@ -2,33 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html,
 body {
-  height: 100%;
-  width: 100%;
-  font-family: outfit, sans-serif;
   overflow-x: hidden;
-}
-
-.circle-1 {
-  animation: animate 10s linear infinite;
-}
-
-@keyframes animate {
-  0% {
-    margin-top: 0;
-  }
-  50% {
-    margin-top: -200px;
-  }
-  100% {
-    margin-top: 0px;
-  }
 }
 
 .circleHead {
@@ -39,16 +14,6 @@ body {
   -webkit-background-clip: text;
   color: rgb(253, 203, 232);
   letter-spacing: calc(1.5em / 16);
-}
-
-.bounding {
-  width: fit-content;
-  overflow: hidden;
-}
-
-.bounding h1 {
-  transform: translateY(100%);
-  opacity: 0.5;
 }
 
 @layer base {
@@ -113,12 +78,5 @@ body {
   }
   body {
     @apply bg-background text-foreground;
-  }
-}
-
-.card {
-  transition: all 0.3s;
-  &:hover {
-    border: 2px solid #1876f254;
   }
 }
