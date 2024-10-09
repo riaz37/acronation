@@ -4,7 +4,8 @@ import Image from "next/image";
 
 const Contact = () => {
     return (
-      <div className="w-[350px] lg:w-full flex items-center content-center h-[500px]  p-10 mx-auto">
+      <div className="w-[350px] lg:w-full flex justify-center items-center content-center h-[500px]  p-10 mx-auto">
+        <div className="w-[full] max-w-[1600px] h-auto">
           <div className=" flex flex-col lg:flex-row justify-between flex-1 gap-36 items-center ">
             <div className="circle relative z-0 sm:h-150 sm:w-150 md:h-175 md:w-175 lg:h-200 lg:w-200">
             <div className="absolute top-0 left-0 sm:-top-12 md:-top-16 lg:-top-20 xl:-top-24"  
@@ -82,6 +83,7 @@ const Contact = () => {
                     </button>
                 </form>
             </div>
+        </div>
         </div>
       </div>
     );

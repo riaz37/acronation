@@ -1,6 +1,7 @@
 import cn from "@/lib/cn";
 import Marquee from "@/Components/ui/marquee";
 import React from "react";
+import Image from "next/image";
 
 const reviews = [
   {
@@ -66,7 +67,7 @@ const ReviewCard = ({
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <img className="rounded-full" width="32" height="32" alt="" src={img} />
+        <Image className="rounded-full" width="32" height="32" alt="" src={img} />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium dark:text-white">
             {name}
@@ -139,7 +140,7 @@ const feedback = [
 
 export default function Testimonial() {
   return (
-    <div className=" my-[50px] px-4">
+    <div className=" my-[50px] px-4 ">
       <h1 className="text-4xl font-bold text-center mb-4">
         Client Comments <span className="text-blue-600">Comments</span> About Us
       </h1>

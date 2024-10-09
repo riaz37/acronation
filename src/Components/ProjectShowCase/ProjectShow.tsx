@@ -73,10 +73,10 @@ const ProjectShow = () => {
               </p>
             </div>
             <button className="flex ml-10 text-white">
-              <h1 className=" text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
+              <h1 className=" text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] h-[54px] rounded-l-full hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
                 Case study
               </h1>
-              <div className="p-[15px] text-[26px] bg-[#1877F2] rounded-r-full hover:bg-gradient-to-br from-[#6d4cff] via-[#1177F2] to-[#1177F2] ml-1">
+              <div className="p-[15px] text-[26px] bg-[#1877F2] rounded-r-full hover:bg-gradient-to-br h-[54px] from-[#6d4cff] via-[#1177F2] to-[#1177F2] ml-1">
                 <FaLongArrowAltUp
                   className="icn-2"
                   style={{ transform: "rotate(45deg)" }}
@@ -97,10 +97,10 @@ const ProjectShow = () => {
               </p>
             </div>
             <button className="flex ml-10 text-white">
-              <h1 className=" text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
+              <h1 className=" text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] h-[54px] rounded-l-full hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
                 Case study
               </h1>
-              <div className="p-[15px] text-[26px] bg-[#1877F2] rounded-r-full hover:bg-gradient-to-br from-[#6d4cff] via-[#1177F2] to-[#1177F2] ml-1">
+              <div className="p-[15px] text-[26px] bg-[#1877F2] rounded-r-full hover:bg-gradient-to-br h-[54px] from-[#6d4cff] via-[#1177F2] to-[#1177F2] ml-1">
                 <FaLongArrowAltUp
                   className="icn-2"
                   style={{ transform: "rotate(45deg)" }}

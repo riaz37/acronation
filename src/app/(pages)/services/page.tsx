@@ -7,9 +7,10 @@ const Page = () => {
   return (
     <div>
       <Service />
-      <div className="w-full flex flex-col">
-        <ServicesOverview />
-        <ServiceCategory />
+      <div className="w-screen flex justify-center items-center h-auto">
+        <div className="w-full max-w-[1600px] h-auto">
+          <ServiceCategory />
+        </div>
       </div>
     </div>
   );
