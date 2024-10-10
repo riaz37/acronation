@@ -27,7 +27,7 @@ const Heroleft = () => {
 
   return (
     <div>
-      <div className="heroLeftM w-[812px] h-[579.77px] ">
+      <div className="w-[812px] h-[579.77px] ">
         {/* upper button */}
         <button
           onMouseEnter={() => {
@@ -36,7 +36,7 @@ const Heroleft = () => {
           onMouseLeave={() => {
             gsap.to(".icn-1", { rotate: 45, scale: 1, duration: 0.3 });
           }}
-          className="btn-1 py-[4px] px-[14px] bg-gradient-to-br to-bottom-right from-[#AF82FF] via-[#FFE1E3] via-30% to-[#ACE7FF] to-bottom-right rounded-full text-black active:scale-105 flex items-center gap-3 text-xl "
+          className="none sm:flex btn-1 py-[4px] px-[14px] bg-gradient-to-br to-bottom-right from-[#AF82FF] via-[#FFE1E3] via-30% to-[#ACE7FF] to-bottom-right rounded-full text-black active:scale-105 flex items-center gap-3 text-xl "
         >
           <div className="w-[45px] h-[40px] bg-slate-100 rounded-l-full flex justify-center items-center">
             <Image

@@ -7,3 +7,15 @@
   transform: translateY(100%);
   opacity: 0.5;
 }
+
+.heroParent {
+  @apply w-full h-auto flex justify-center items-center;
+}
+
+.heroCss {
+  @apply w-[1600px] flex flex-col sm:flex-row justify-between items-end mr-[18rem] sm:mr-0 sm:items-center gap-[20px] mb-[80px];
+}
+
+/* .bounding h1 {
+  @apply text-[34px] sm:text-[64px];
+} */
