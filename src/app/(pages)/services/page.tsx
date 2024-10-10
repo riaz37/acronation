@@ -1,18 +1,12 @@
-import React from "react";
-import ServiceCategory from "@/featrues/services/ServiceCategory";
-import ServicesOverview from "@/featrues/services/ServicesOverview";
-import Service from "@/Components/Service-upper";
+import React from 'react'
+import Service from '@/Components/Service-upper'
 
-const Page = () => {
+const Services = () => {
   return (
     <div>
-      <Service />
-      <div className="w-full flex flex-col">
-        <ServicesOverview />
-        <ServiceCategory />
-      </div>
+      <Service/>
     </div>
-  );
-};
+  )
+}
 
-export default Page;
+export default Services

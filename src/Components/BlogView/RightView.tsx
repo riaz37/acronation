@@ -116,7 +116,7 @@ const RightView = () => {
   ];
 
   return <div>
-    <li className="text-[16px] w-[174px] h-[46px] text-[#282828] rounded-[8px] border-[1px] border-[#F5F5F5] py-[10px] px-[24px]">
+    <li className="text-[16px] w-[174px] h-[46px] text-[#282828] rounded-[8px] border-[1px] border-[#F5F5F5] py-[10px] px-[24px]  font-semibold">
         Latest Project
       </li>
     {blogs.map((blog,index)=> <SingleBlog key={index} blog={blog} ></SingleBlog>)}
