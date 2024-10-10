@@ -1,0 +1,9 @@
+.bounding {
+  width: fit-content;
+  overflow: hidden;
+}
+
+.bounding h1 {
+  transform: translateY(100%);
+  opacity: 0.5;
+}

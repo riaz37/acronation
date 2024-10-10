@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow-x: hidden;
+}
+
+.circleHead {
+  background-image: linear-gradient(to bottom, #272727 0%, #1877f2 100%);
+  background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: calc(1.5em / 16);
+  -webkit-background-clip: text;
+  color: rgb(253, 203, 232);
+  letter-spacing: calc(1.5em / 16);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
