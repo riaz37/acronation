@@ -6,7 +6,7 @@ const Partnership = () =>{
     return(
         <>
             <div className="h-[536px] w-[100vw] flex justify-center items-center lower-main-section">
-                <div className="w-[1920px] h-[536px] flex justify-center items-center relative">
+                <div className="w-screen max-w-[1600px] h-[536px] flex justify-center items-center relative">
                     <div className="w-full h-[352px] text-section flex flex-col justify-between items-center">
                         <div className="head-text">
                             <p className='text-[48px] font-[700]'>Our <span className='text-[#1877F2]'>Partnership</span> </p>
