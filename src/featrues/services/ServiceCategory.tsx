@@ -8,6 +8,7 @@ const ServiceCategory = () => {
       {serviceCategory?.map((item: ServiceCategoryType, i: number) => (
         <ServiceCategoryCard key={i} {...item} />
       ))}
+      <div className="h-[80px] w-[1600px]"></div>
     </div>
   );
 };

@@ -35,7 +35,7 @@ const slugs = [
 
 export function HeroRight() {
   return (
-    <div className="relative flex size-full max-w-lg items-center justify-center overflow-hidden rounded-lg px-20 pb-20 pt-8">
+    <div className="heroR relative flex size-full max-w-lg items-start justify-start overflow-hidden rounded-lg px-17 pb-20 pt-8 mr-[5rem]">
       <IconCloud iconSlugs={slugs} />
     </div>
   );
