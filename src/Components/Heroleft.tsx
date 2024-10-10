@@ -1,14 +1,31 @@
+//@typescript-eslint/no-explicit-any
 import React, { use } from "react";
 import { FaLongArrowAltUp } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
+import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
 const Heroleft = () => {
-  useGSAP(() => {});
+  const ref1 = useRef(null);
+  const ref2 = useRef(null);
+  const ref3 = useRef(null);
+  const ref4 = useRef(null);
+  const ref5 = useRef(null);
+
+  useGSAP(() => {
+    const tl = gsap.timeline();
+    tl.to(ref1.current, { y: 0, duration: 1, opacity: 1 });
+    tl.to(ref1.current, { duration: 0.5, opacity: 1 }, "-=0.7");
+    tl.to(ref2.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
+    tl.to(ref3.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
+    tl.to(ref4.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
+    tl.to(ref5.current, { y: 0, duration: 1, opacity: 1 }, "-=0.7");
+  });
+
   return (
     <div>
-      <div className="w-[812px] h-screen ">
+      <div className="w-[812px] h-[579.77px] ">
         {/* upper button */}
         <button
           onMouseEnter={() => {
@@ -38,13 +55,26 @@ const Heroleft = () => {
         {/* header */}
         <div className="flex relative mt-[30px]">
           <h1 className="text-[64px] font-black leading-[74px]">
-            Creative <span className="text-[#1877F2]">Web Design</span>{" "}
+            <div className="bounding">
+              <h1 ref={ref1}>
+                Creative <span className="text-[#1877F2]">Web Design</span>{" "}
+              </h1>
+            </div>
             <video
+              ref={ref5}
               autoPlay
               src="/hero.mp4"
-              className="w-[116px] h-[60px] bg-slate-400 rounded-full absolute top-[14px] right-[40px]"
+              className="w-[116px] h-[60px] bg-slate-400 rounded-full absolute top-[14px] right-[40px] opacity-0"
             ></video>{" "}
-            solution crafted with precision for your unique brand.{" "}
+            <div className="bounding">
+              <h1 ref={ref2}>solution crafted with</h1>
+            </div>{" "}
+            <div className="bounding">
+              <h1 ref={ref3}>precision for your unique</h1>
+            </div>{" "}
+            <div className="bounding">
+              <h1 ref={ref4}>brand. </h1>
+            </div>
           </h1>
         </div>
         <p className="text-[20px] mt-[30px] ">
@@ -60,12 +90,12 @@ const Heroleft = () => {
             onMouseLeave={() => {
               gsap.to(".icn-2", { rotate: 45, scale: 1, duration: 0.3 });
             }}
-            className="mt-5 active:scale-105 flex items-center gap-[4px] text-white"
+            className="mt-5 active:scale-105 flex items-center gap-[4px] text-white group"
           >
-            <h1 className="bttn text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
+            <h1 className="bttn text-xl font-semibold py-[14px] px-[30px] bg-[#1877F2] rounded-l-full group-hover:bg-gradient-to-br from-[#6d4cff] via-[#6d4cff] to-[#1177F2]">
               Get Started
             </h1>
-            <div className="p-[15px] text-[26px] bg-[#1877F2] rounded-r-full hover:bg-gradient-to-br from-[#6d4cff] via-[#1177F2] to-[#1177F2]">
+            <div className="p-[15px] text-[26px] bg-[#1877F2] rounded-r-full group-hover:bg-gradient-to-br from-[#6d4cff] via-[#1177F2] to-[#1177F2]">
               <FaLongArrowAltUp
                 className="icn-2"
                 style={{ transform: "rotate(45deg)" }}
