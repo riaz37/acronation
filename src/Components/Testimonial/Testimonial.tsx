@@ -1,5 +1,7 @@
-import { cn } from "@/lib/utils";
+import cn from "@/lib/cn";
 import Marquee from "@/Components/ui/marquee";
+import React from "react";
+import Image from "next/image";
 
 const reviews = [
   {
@@ -65,7 +67,13 @@ const ReviewCard = ({
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <img className="rounded-full" width="32" height="32" alt="" src={img} />
+        <Image
+          className="rounded-full"
+          width="32"
+          height="32"
+          alt=""
+          src={img}
+        />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium dark:text-white">
             {name}
@@ -78,9 +86,67 @@ const ReviewCard = ({
   );
 };
 
+const feedback = [
+  {
+    name: "Alinak d",
+    position: "CEO",
+    comment:
+      "Acro Nation's technical expertise is unmatched. They provided us with the perfect solutions for our complex challenges.",
+    img: "https://avatar.vercel.sh/jack", // Replace with actual image path
+  },
+  {
+    name: "cartona",
+    position: "CTO",
+    comment:
+      "Their collaborative approach made the project enjoyable and successful. I couldn't ask for a better partner.",
+    img: "https://avatar.vercel.sh/jill", // Replace with actual image path
+  },
+  {
+    name: "onil",
+    position: "Founder",
+    comment:
+      "Acro Nation has been instrumental in our growth journey. Their dedication and creativity set them apart.",
+    img: "https://avatar.vercel.sh/john", // Replace with actual image path
+  },
+  {
+    name: "elies",
+    position: "Oparations manager",
+    comment:
+      "Acro Nation transformed our digital strategy. Their innovative solutions helped us reach our target audience effectively",
+    img: "https://avatar.vercel.sh/jane", // Replace with actual image path
+  },
+  {
+    name: "Sarah Johnson",
+    position: "CEO",
+    comment:
+      "Their team is incredibly creative and responsive. They truly understand our vision and bring it to life.",
+    img: "https://avatar.vercel.sh/jenny", // Replace with actual image path
+  },
+  {
+    name: "poll",
+    position: "manager",
+    comment:
+      "Their forward-thinking approach and attention to detail transformed our digital platforms and gave us a competitive edge.",
+    img: "https://avatar.vercel.sh/james", // Replace with actual image path
+  },
+  {
+    name: "Jessica Smith",
+    position: "marketing manager",
+    comment: "Great collaboration and excellent results.",
+    img: "https://avatar.vercel.sh/jill", // Replace with actual image path
+  },
+  {
+    name: "Robert Martinez",
+    position: "CEO",
+    comment:
+      "Acro Nation's insights and tools have streamlined our processes, leading to higher efficiency and better results.",
+    img: "https://avatar.vercel.sh/jill", // Replace with actual image path
+  },
+];
+
 export default function Testimonial() {
   return (
-    <div className=" my-[50px] px-4">
+    <div className=" my-[50px] px-4 ">
       <h1 className="text-4xl font-bold text-center mb-4">
         Client Comments <span className="text-blue-600">Comments</span> About Us
       </h1>
@@ -89,7 +155,7 @@ export default function Testimonial() {
         consistent results that drive growth and success
       </p>
 
-      <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden  bg-background md:shadow-xl">
+      <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
         <Marquee pauseOnHover className="[--duration:20s]">
           {firstRow.map((review) => (
             <ReviewCard key={review.username} {...review} />

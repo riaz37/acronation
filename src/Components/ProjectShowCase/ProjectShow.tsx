@@ -6,8 +6,8 @@ import flobite from "../../../public/flowbies.svg";
 import gsap from "gsap";
 const ProjectShow = () => {
   return (
-    <div>
-      <div className="flex px-[62px] w-[1600px] ">
+    <div className="w-screen h-auto flex justify-center items-center">
+      <div className="flex w-[1600px]">
         <div className=" w-[672px]">
           <h1 className="text-[48px] font-bold  ">
             Our Thinking <span className="text-[#1877F2]">Solutions</span>
@@ -34,7 +34,7 @@ const ProjectShow = () => {
             </div>
             <div className="flex">
               <PiCheckCircleFill className="text-blue-500 m-1" />
-              <h4>result and analysis</h4>
+              <h4>Result and Analysis</h4>
             </div>
           </div>
           <button
@@ -61,7 +61,6 @@ const ProjectShow = () => {
           <h1>Latest project</h1>
           <div className="flex m-2 p-2 w-[868px]">
             <div className="bg-[#F5F5F5] mx-4 h-[110px] w-[110px] rounded-md flex items-center justify-center">
-              {/* Using Next.js Image for the logo */}
               <Image src={flobite} alt="Project Logo" width={80} height={80} />
             </div>
             <div className="w-[400px]">
@@ -94,7 +93,6 @@ const ProjectShow = () => {
           </div>
           <div className="flex m-2 p-2 w-[868px]">
             <div className="bg-[#F5F5F5] mx-4 h-[110px] w-[110px] rounded-md flex items-center justify-center">
-              {/* Using Next.js Image for the logo */}
               <Image src={fbllog} alt="Project Logo" width={80} height={80} />
             </div>
             <div className="w-[400px]">

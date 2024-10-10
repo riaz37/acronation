@@ -10,7 +10,9 @@ import Testimonial from "@/Components/Testimonial/Testimonial";
 const Home = () => {
   return (
     <div>
-      <Hero />
+      <div className="flex justify-between">
+        <Hero />
+      </div>
       <ProjectShow />
       <Testimonial />
       <Partnership />
