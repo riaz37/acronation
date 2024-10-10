@@ -18,12 +18,12 @@ const AboutUs = () =>{
                                 </div>
                                 <div className="w-full h-[54px] flex justify-start items-center">
                                     <div className="w-[198px] h-[54px] flex justify-between items-center">
-                                        <div className="w-[140px] h-full bg-[#1877F2] rounded-s-[100px] flex justify-center items-center">
+                                        <button className="w-[140px] h-full bg-[#1877F2] rounded-s-[100px] flex justify-center items-center">
                                             <p className="text-[16px] font-[outfit] leading-[26px] text-[#FFFFFF] font-semibold">Contact Us</p>
-                                        </div>
-                                        <div className="w-[54px] h-full bg-[#1877F2] rounded-e-[100px] flex justify-center items-center">
+                                        </button>
+                                        <button className="w-[54px] h-full bg-[#1877F2] rounded-e-[100px] flex justify-center items-center">
                                             <Image src="arow.svg" height="26" width="26" alt="arrow" />
-                                        </div>
+                                        </button>
                                     </div>
                                 </div>
                             </div>

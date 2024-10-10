@@ -19,6 +19,7 @@
 .active {
     font-weight: bold;
     list-style-type: disc;
+    color: #1877F2;
 }
 
 .btn-name:last-child {
