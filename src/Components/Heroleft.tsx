@@ -1,3 +1,4 @@
+//@typescript-eslint/no-explicit-any
 import React, { use } from "react";
 import { FaLongArrowAltUp } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";

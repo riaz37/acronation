@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: outfit, sans-serif;
+  overflow-x: hidden;
+}
+
 .circle-1 {
   animation: animate 10s linear infinite;
 }
