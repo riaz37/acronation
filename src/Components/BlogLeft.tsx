@@ -43,7 +43,7 @@ const BlogLeft = () => {
             </div>
         </div>
       </div>
-      <div className='flex   gap-8 h-[350px]'>
+      <div className='flex   gap-8 h-[350px]   '>
         {/* image */}
         <div className='container w-[400px] '>
         <div className='absolute  bg-white bg-opacity-40 h-12 w-12 rounded-full  z-10 flex justify-center items-center mt-2 left-96'>
